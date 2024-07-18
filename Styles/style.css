@@ -183,3 +183,40 @@
     align-items: center;
     justify-content: center;
 }
+
+/* run_extra_mile_section design */
+
+.run_extra_mile_section{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34,34,34);
+    gap: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.run_extra_mile_img img{
+    width: 406px;
+    height: 320px;
+    border-radius: 18px;
+    margin-top: 25px;
+}
+.run_extra_mile_title h1{
+    color: rgb(255,255,255);
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.run_extra_mile_title p{
+    color: rgb(255,255,255,0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.run_extra_mile_title{
+    margin-left: 50px;
+    margin-top: 50px;
+}
