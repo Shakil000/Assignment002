@@ -1,23 +1,28 @@
 /* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
 /* Shared Style start */
 .inter{
     font-family: "Inter", sans-serif;
+}
+.font_miama{
+    font-family: "Playwrite BE VLG", cursive;
 }
 /* Shared Style end */
 
 /* nav design start */
 .container{
+    background: linear-gradient(180.00deg, 
+    rgb(17,17,17), 
+    rgba(119,119,119,0) 100%);
     width: 100%;
     height: 100%;
     background: rgb(0, 0, 0);
 }
 .header_items{
-    background: linear-gradient(180.00deg, 
-    rgb(17,17,17), 
-    rgba(119,119,119,0) 100%);
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -57,6 +62,124 @@
 .banner_section{
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
+}
+.banner_title h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+}
+.banner_title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn_primary{
+    color: white;
+    background-color: rgb(230,83,68);
+    border: none;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn_secondary{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ball{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: -35px;
+    margin-right: 13px;
+}
+.video_tutorial{
+    display: flex;
+    color: white;
+    height: 90px;
+    width: 100px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48,48,48,0.54);
+    padding-left: 50px;
+    margin-top: 383px;
+}
+.video_tutorial p{
+    margin-top: -18px;
+}
+.workout{
+    color: white;
+    height: 90px;
+    padding: 0 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48,48,48,0.54);
+    margin-top: 60px;
+}
+.workout h1{
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* change_habits_section design start */
+.change_habits_section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.change_habit_title h1{
+    color: rgb(255,255,255);
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+.change_habit_title p{
+    color: rgb(255,255,255,0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -20px;
+}
+.change_habits_img img{
+    border-radius: 50%;
+    margin: 50px;
+}
+.change_habits_img{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    margin-top: -30px;
+}
+.change_habits_img h1{
+    margin-left: 8px;
+    margin-top: -25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.change_habits_img p{
+    color: rgb(255,255,255,0.5);
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
 }
