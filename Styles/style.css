@@ -220,3 +220,63 @@
     margin-left: 50px;
     margin-top: 50px;
 }
+
+/* training_and_exercise_section design */
+
+.training_and_exercise_section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.training_experience h1{
+    color: rgb(255,255,255);
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.training_experience p{
+    color: rgb(255,255,255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.training_experience_img .first_three{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.training_experience_img .second_three{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.first_three .first_img{
+    width: 303px;
+    height: 256px;
+    background: rgba(6,255,210,0.5);
+}
+.first_three .second_img{
+    width: 509px;
+    height: 256px;
+    background: rgba(255,0,0,0.3);
+}
+.first_three .third_img{
+    width: 388px;
+    height: 256px;
+    background: rgba(0,0,0,0.5);
+}
+
+.second_three .forth_img{
+    width: 435px;
+    height: 250px;
+    background: rgba(0,0,0,0.5);
+}
+.second_three .fifth_img{
+    width: 408px;
+    height: 250px;
+    background: rgba(66,255,0,0.3);
+}
+.second_three .sixth_img{
+    width: 376px;
+    height: 250px;
+    background: rgba(0,71,255,0.3);
+}
