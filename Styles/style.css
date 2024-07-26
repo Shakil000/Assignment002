@@ -1,3 +1,7 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 /* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -54,7 +58,7 @@
     background-color: rgb(230,83,60);
     border-radius: 50px;
     padding: 10px 20px;
-}    
+}   
 /* nav design end */
 
 /* Banner design start */
@@ -64,6 +68,12 @@
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
+}
+.banner_sec_img{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),
+     rgba(119,119,119,0)100%);
+    background-repeat: no-repeat;
+   
 }
 .banner_title h1{
     color: rgb(255, 255, 255);
@@ -249,36 +259,84 @@
     width: 100%;
     height: 100%;
 }
-.first_three .first_img{
+.first_img{
     width: 303px;
     height: 256px;
-    background: rgba(6,255,210,0.5);
+    background: linear-gradient(180.00deg, rgb(6,255,210,0.5),
+    rgba(6,255,210,0.5)100%),url("../images/exercise1.jpg");;
+    background-size: cover;
+    background-position: center;
 }
-.first_three .second_img{
+.first_img h4{
+    margin-top: 190px;
+    padding: 30px;
+    font-family: inter;
+}
+.second_img{
     width: 509px;
     height: 256px;
-    background: rgba(255,0,0,0.3);
+    background: linear-gradient(180.00deg, rgb(255,0,0,0.3),rgba(255,0,0,0.3)100%),url("../images/exercise2.png");
+    background-size: cover;
+    background-position: center;
 }
-.first_three .third_img{
+.second_img h4{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-family: inter;
+}
+.third_img{
     width: 388px;
     height: 256px;
-    background: rgba(0,0,0,0.5);
+    background: linear-gradient(180180.00deg, rgb(0,0,0,0.5), rgba(0,0,0,0.5)100%), url("../images/exercise3.png");
+    background-size: cover;
+    background-position: center;
+}
+.third_img h4{
+    margin-top: 190px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: inter;
 }
 
-.second_three .forth_img{
+.forth_img{
     width: 435px;
     height: 250px;
-    background: rgba(0,0,0,0.5);
+    background: linear-gradient(180.00deg, rgb(0, 0, 0, 0.5),
+    rgba(0,0,0,0.5)100%),url("../images/exercise4.png");
+    background-size: cover;
+    background-position: center;
 }
-.second_three .fifth_img{
+.forth_img h4{
+    margin-left: 230px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: inter;
+}
+.fifth_img{
     width: 408px;
     height: 250px;
-    background: rgba(66,255,0,0.3);
+    background: linear-gradient(180.00deg, rgb(66,255,0,0.3), rgba(66,255,0,0.3)100%), url("../images/exercise5.jpg");
+    background-size: cover;
+    background-position: center;
 }
-.second_three .sixth_img{
+.fifth_img h4{
+    margin-top: 190px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: inter;
+}
+.sixth_img{
     width: 376px;
     height: 250px;
-    background: rgba(0,71,255,0.3);
+    background: linear-gradient(180.00deg, rgb(0,71,255,0.3), rgba(0,71,255,0.3)100%), url("../images/exercise6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sixth_img h4{
+    margin-top: 190px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: inter;
 }
 
 /* bmi_calculator design */
@@ -412,5 +470,140 @@ tbody td{
     align-self: stretch;
     background-color: rgba(0,0,0,0.2);
 }
-
+.meet_our_team_first_three{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.meet_our_team_second_three{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 0 20px 0;
+}
+.meet_first{
+    background: url("../images/trainer1.png");
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.meet_our_team_photos h4{
+    color: rgb(255, 255, 255);
+    margin-bottom: -14px;
+    margin-top: 190px;
+    margin-left: -155px;
+}
+.meet_first p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: -187px;
+}
+.meet_second{
+    background: url("../images/trainer2.png");
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.meet_second p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: -203px;
+}
+.meet_third{
+    background: url("../images/trainer3.png");
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.meet_third p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: -218px;
+}
+.meet_forth{
+    background: url("../images/trainer4.png");
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.meet_forth p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: -210px;
+}
+.meet_fifth{
+    background: url("../images/trainer5.png");
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.meet_fifth p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: -189px;
+}
+.meet_sixth{
+    background: url("../images/trainer6.png");
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.meet_sixth p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: -203px;
+}
 /* Meet Our Team style end */
+
+/* Footer Style start */
+
+.foot_container{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 50px;
+}
+.footer_text h1{
+    color: rgb(230,83,60);
+    font-size: 70px;
+    font-weight: 800;
+    justify-content: flex-start;
+    
+}
+.footer_text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -20px;
+    line-height: 25px;
+}
+.footer h2{
+    color: rgb(255, 255, 255);
+}
+li{
+   list-style-type: none;
+   line-height: 30px;
+   color: rgba(255, 255, 255, 0.5);
+   margin-left: -35px;
+}
+/* Footer style end */
+.all_right_reserved{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+hr{
+    max-width: 1200px;
+}
