@@ -751,7 +751,7 @@ hr{
 }
 .change_habits_img{
     color: white;
-    display: flex;
+    display: grid;
     align-items: center;
     text-align: center;
     justify-content: center;
