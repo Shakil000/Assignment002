@@ -258,7 +258,7 @@
     height: 100%;
 }
 .first_img{
-    width: 303px;
+    width: 323px;
     height: 256px;
     background: linear-gradient(180.00deg, rgb(6,255,210,0.5),
     rgba(6,255,210,0.5)100%),url("../images/exercise1.jpg");;
@@ -271,9 +271,10 @@
     font-family: inter;
 }
 .second_img{
-    width: 509px;
+    width: 639px;
     height: 256px;
-    background: linear-gradient(180.00deg, rgb(255,0,0,0.3),rgba(255,0,0,0.3)100%),url("../images/exercise2.png");
+    background: linear-gradient(180.00deg, rgb(255,0,0,0.3),rgba(255,0,0,0.3)100%),
+    url("../images/exercise2.png");
     background-size: cover;
     background-position: center;
 }
@@ -285,7 +286,8 @@
 .third_img{
     width: 388px;
     height: 256px;
-    background: linear-gradient(180180.00deg, rgb(0,0,0,0.5), rgba(0,0,0,0.5)100%), url("../images/exercise3.png");
+    background: linear-gradient(180180.00deg, rgb(0,0,0,0.5), rgba(0,0,0,0.5)100%),
+    url("../images/exercise3.png");
     background-size: cover;
     background-position: center;
 }
@@ -297,7 +299,7 @@
 }
 
 .forth_img{
-    width: 435px;
+    width: 350px;
     height: 250px;
     background: linear-gradient(180.00deg, rgb(0, 0, 0, 0.5),
     rgba(0,0,0,0.5)100%),url("../images/exercise4.png");
@@ -734,7 +736,10 @@ hr{
 
 /* change_habits_section design start */
 .change_habits_section{
-    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     margin: 0 auto;
 }
 .change_habit_title h1{
@@ -786,6 +791,7 @@ hr{
     border-radius: 18px;
     background: rgb(34,34,34);
     height: 100%;
+    width: 95%;
     max-width: 566px;
     margin-right: 50px;
     margin: 0 auto;
@@ -816,7 +822,7 @@ hr{
 /* Training section responsive */
 
 .training_and_exercise_section{
-    max-width: 576px;
+    width: 100%;
     margin: 0 auto;
 }
 .training_experience h1{
@@ -829,7 +835,7 @@ hr{
 }
 .training_experience p{
     color: rgb(255,255,255, 0.5);
-    font-size: 14px;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 25px;
     width: 80%;
@@ -838,15 +844,15 @@ hr{
 .training_experience_img .first_three{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* width: 100%;
-    height: 100%; */
+    width: 91%;
+    height: 100%;
     margin-left: 20px;
 }
 .training_experience_img .second_three{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* width: 100%;
-    height: 100%; */
+    width: 91%;
+    height: 100%;
     margin-left: 20px;
 }
 .first_img{
@@ -861,6 +867,11 @@ hr{
     margin-top: 190px;
     padding: 30px;
     font-family: inter;
+}
+.training_experience_img{
+    font-family: inter;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
 }
 .second_img{
     width: 100%;
@@ -889,7 +900,7 @@ hr{
 }
 
 .forth_img{
-    width: 78%;
+    width: 100%;
     height: 250px;
     background: linear-gradient(180.00deg, rgb(0, 0, 0, 0.5),
     rgba(0,0,0,0.5)100%),url("../images/exercise4.png");
@@ -899,17 +910,15 @@ hr{
 }
 .forth_img_copy{
     width: 100%;
-    height: 250px;
+    height: 256px;
     background: linear-gradient(180.00deg, rgb(0, 0, 0, 0.5),
     rgba(0,0,0,0.5)100%),url("../images/exercise4.png");
     background-size: cover;
     background-position: center;
 }
-.forth_img h4{
-    margin-left: 230px;
-    padding: 30px;
-    color: rgb(255, 255, 255);
-    font-family: inter;
+.copy_img h4{
+    margin-left: 30px;
+    margin-top: 220px;
 }
 .fifth_img{
     width: 100%;
@@ -941,8 +950,7 @@ hr{
 /* Bmi calculator responsive */
 
 .bmi_calculator{
-    /* max-width: 576px;
-    margin: 0 auto; */
+    margin: 0 auto;
     margin-left: 20px;
 }
 .bmi_calculator h1{
@@ -981,8 +989,9 @@ tbody td{
 }
 .bmi_main{
     background: rgb(34,34,34);
-    /* width: 100%; */
-    /* height: 100%; */
+    width: 99%;
+    height: 100%;
+    align-items: center;
 }
 .bmi_calculator_chart{
     display: grid;
@@ -1061,7 +1070,7 @@ tbody td{
 /* Meet our team responsive */
 
 .meet_out_team_container{
-    max-width: 576px;
+    max-width: 98%;
     margin: 0 auto;
 }
 .meet_out_team h1{
@@ -1159,8 +1168,4 @@ li{
 hr{
     max-width: 500px;
 }
-.items_icon{
-    display: none;
-}
-
 }
