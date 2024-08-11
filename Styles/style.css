@@ -1022,7 +1022,6 @@ tbody td{
     margin-left: 20px;
 }
 .first_two_input, input[type="text"]{
-    color: white;
     display: flex;
     margin-bottom: 10px;
     gap: 5px;
@@ -1095,6 +1094,12 @@ tbody td{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.meet_our_team_photos h4{
+    margin-left: -80px;
+}
+.meet_our_team_photos p{
+    margin-left: -80px;
 }
 .meet_our_team_photos img{
     width: 325px;
