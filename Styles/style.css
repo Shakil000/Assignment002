@@ -623,7 +623,7 @@ hr{
         display: none;
     }
     .items_icon{
-        max-width: 506px;
+        max-width: 95%;
         background-color: white;
         height: 20px;
         display: inline;
@@ -641,6 +641,7 @@ hr{
     display: grid;
 }
 .banner_sec_img{
+    width: 95%;
     background: linear-gradient(180.00deg, 
     rgb(17,17,17), 
     rgba(119,119,119,0) 100%);
@@ -650,7 +651,7 @@ hr{
     margin-top: -405px;
 }
 .banner_section_main{
-    max-width: 576px;
+    width: 95%;
     margin: 0 auto;
 }
 .banner_title h1{
@@ -675,6 +676,7 @@ hr{
     font-size: 1rem;
     font-weight: 600;
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 .btn_secondary{
     color: white;
@@ -726,6 +728,7 @@ hr{
     position: absolute;
     margin-top: -550px;
     margin-left: 200px;
+    margin-right: 10px;
   }
 .workout h1{
     margin-top: 7px;
@@ -736,11 +739,11 @@ hr{
 
 /* change_habits_section design start */
 .change_habits_section{
-    width: 100%;
+    width: 95%;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 15px 0 -3px;
 }
 .change_habit_title h1{
     color: rgb(255,255,255);
@@ -791,39 +794,40 @@ hr{
     border-radius: 18px;
     background: rgb(34,34,34);
     height: 100%;
-    width: 95%;
-    max-width: 566px;
-    margin-right: 50px;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0 10px 0 10px;
 }
 .run_extra_mile_img img{
     border-radius: 18px;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-bottom: 20px;
     width: 80%;
 }
 .run_extra_mile_title h1{
     position: relative;
+    margin-left: -20px;
     color: rgb(255,255,255);
     font-size: 3.5rem;
     font-weight: 800;
 }
 .run_extra_mile_title p{
     color: rgb(255,255,255,0.5);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 20px;
+    margin-left: -20px;
 }
 .button{
     width: 80%;
     font-size: 1.5rem;
     padding: 15px;
+    margin-left: -20px;
 }
 /* Training section responsive */
 
 .training_and_exercise_section{
-    width: 100%;
-    margin: 0 auto;
+    width: 95%;
+    margin-left: 3px;
 }
 .training_experience h1{
     color: rgb(255,255,255);
@@ -831,7 +835,7 @@ hr{
     font-weight: 900;
     margin-bottom: 15px;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .training_experience p{
     color: rgb(255,255,255, 0.5);
@@ -839,32 +843,28 @@ hr{
     font-weight: 400;
     margin-bottom: 25px;
     width: 80%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .training_experience_img .first_three{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 91%;
-    height: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .training_experience_img .second_three{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 91%;
-    height: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .first_img{
     width: 100%;
-    height: 256px;
+    height: 200px;
     background: linear-gradient(180.00deg, rgb(6,255,210,0.5),
     rgba(6,255,210,0.5)100%),url("../images/exercise1.jpg");;
     background-size: cover;
     background-position: center;
 }
 .first_img h4{
-    margin-top: 190px;
+    margin-top: 130px;
     padding: 30px;
     font-family: inter;
 }
@@ -875,7 +875,7 @@ hr{
 }
 .second_img{
     width: 100%;
-    height: 256px;
+    height: 200px;
     background: linear-gradient(180.00deg, rgb(255,0,0,0.3),rgba(255,0,0,0.3)100%),url("../images/exercise2.png");
     background-size: cover;
     background-position: center;
@@ -887,13 +887,13 @@ hr{
 }
 .third_img{
     width: 100%;
-    height: 256px;
+    height: 200px;
     background: linear-gradient(180180.00deg, rgb(0,0,0,0.5), rgba(0,0,0,0.5)100%), url("../images/exercise3.png");
     background-size: cover;
     background-position: center;
 }
 .third_img h4{
-    margin-top: 190px;
+    margin-top: 130px;
     padding: 30px;
     color: rgb(255, 255, 255);
     font-family: inter;
@@ -910,7 +910,7 @@ hr{
 }
 .forth_img_copy{
     width: 100%;
-    height: 256px;
+    height: 200px;
     background: linear-gradient(180.00deg, rgb(0, 0, 0, 0.5),
     rgba(0,0,0,0.5)100%),url("../images/exercise4.png");
     background-size: cover;
@@ -918,30 +918,30 @@ hr{
 }
 .copy_img h4{
     margin-left: 30px;
-    margin-top: 220px;
+    margin-top: 160px;
 }
 .fifth_img{
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: linear-gradient(180.00deg, rgb(66,255,0,0.3), rgba(66,255,0,0.3)100%), url("../images/exercise5.jpg");
     background-size: cover;
     background-position: center;
 }
 .fifth_img h4{
-    margin-top: 190px;
+    margin-top: 130px;
     padding: 30px;
     color: rgb(255, 255, 255);
     font-family: inter;
 }
 .sixth_img{
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: linear-gradient(180.00deg, rgb(0,71,255,0.3), rgba(0,71,255,0.3)100%), url("../images/exercise6.jpg");
     background-size: cover;
     background-position: center;
 }
 .sixth_img h4{
-    margin-top: 190px;
+    margin-top: 130px;
     padding: 30px;
     color: rgb(255, 255, 255);
     font-family: inter;
@@ -989,9 +989,8 @@ tbody td{
 }
 .bmi_main{
     background: rgb(34,34,34);
-    width: 99%;
-    height: 100%;
-    align-items: center;
+    width: 95%;
+    margin-left: 12px;
 }
 .bmi_calculator_chart{
     display: grid;
@@ -1024,7 +1023,7 @@ tbody td{
     display: flex;
     margin-bottom: 10px;
     gap: 5px;
-    width: 90%;
+    width: 70%;
     height: 48px;
     border-radius: 8px;
     background-color: transparent;
@@ -1034,7 +1033,7 @@ tbody td{
 .second_two_input,input[type="number"]{
     display: flex;
     gap: 5px;
-    width: 90%;
+    width: 70%;
     height: 48px;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -1044,9 +1043,9 @@ tbody td{
 }
 .second_two_input,select{
     display: flex;
-    width: 90%;
+    width: 70%;
     gap: 5px;
-    height: 48px;
+    height: 55px;
     border-radius: 8px;
     background-color: transparent;
     color: white;
@@ -1054,7 +1053,7 @@ tbody td{
 }
 #select_factor{
     display: flex;
-    width: 88%;
+    width: 68%;
     gap: 5px;
     height: 48px;
     border-radius: 8px;
@@ -1063,14 +1062,14 @@ tbody td{
     margin-left: 20px;
 }
 .bmi_button{
-    width: 48%;
+    width: 65%;
     padding: 20px;
     font-size: 1.1rem;
 }
 /* Meet our team responsive */
 
 .meet_out_team_container{
-    max-width: 98%;
+    max-width: 95%;
     margin: 0 auto;
 }
 .meet_out_team h1{
@@ -1082,12 +1081,10 @@ tbody td{
 
 .meet_out_team p{
     color: rgba(255, 255, 255, 0.5);
-    width: 80%;
     margin-top: -15px;
     line-height: 20px;
     font-size: 1.2rem;
     font-weight: 400;
-    margin-left: 60px;
 }
 .meet_our_team_photos{
     background-color: rgba(255,255,255, 0.1);
