@@ -611,6 +611,11 @@ hr{
 
 /* Responsive for Mobile */
 
+
+
+
+
+
 @media screen and (max-width: 576px) {
     .nav_items{
         display: none;
@@ -1053,5 +1058,56 @@ tbody td{
     padding: 20px;
     font-size: 1.1rem;
 }
-/* Meet our team */
+/* Meet our team responsive */
+
+.meet_out_team_container{
+    max-width: 576px;
+    margin: 0 auto;
+}
+.meet_out_team h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.meet_out_team p{
+    color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin-top: -15px;
+    line-height: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 60px;
+}
+.meet_our_team_photos{
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.meet_our_team_photos img{
+    width: 325px;
+    height: 282px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    align-self: stretch;
+    background-color: rgba(0,0,0,0.2);
+}
+.meet_our_team_first_three{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.meet_our_team_second_three{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 0 20px 0;
+}
+.trainer{
+    font-size: 1.5rem;
+}
 }
