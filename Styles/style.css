@@ -620,6 +620,10 @@ hr{
 
 
 @media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
     .nav_items{
         display: none;
     }
@@ -828,7 +832,7 @@ hr{
 
 .training_and_exercise_section{
     width: 95%;
-    margin-left: 3px;
+    margin-left: 15px;
 }
 .training_experience h1{
     color: rgb(255,255,255);
@@ -1072,8 +1076,8 @@ tbody td{
 /* Meet our team responsive */
 
 .meet_out_team_container{
-    max-width: 95%;
-    margin: 0 auto;
+    max-width: 92%;
+    margin-left: 9px;
 }
 .meet_out_team h1{
     color: rgb(255, 255, 255);
@@ -1137,7 +1141,7 @@ tbody td{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 20px;
 }
 .footer_text h1{
