@@ -603,6 +603,7 @@ li{
 .all_right_reserved{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    padding-bottom: 20px;
 }
 hr{
     max-width: 1200px;
