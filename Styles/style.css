@@ -832,13 +832,15 @@ li::marker{
     font-size: 45px;
     font-weight: 900;
     text-align: center;
+    margin-left: 10px;
 }
 .change_habit_title p{
     color: rgb(255,255,255,0.5);
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     margin-top: -20px;
+    margin-left: 20px;
 }
 .change_habits_img img{
     border-radius: 50%;
