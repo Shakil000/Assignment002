@@ -589,6 +589,7 @@ tbody td{
     font-weight: 400;
     margin-top: -20px;
     line-height: 25px;
+    width: 500px;
 }
 .footer h2{
     color: rgb(255, 255, 255);
@@ -680,13 +681,13 @@ small{
     text-align: left;
     margin-left: 35px;
 }
-ul>li{
+/* ul>li{
     list-style-type: circle;
 }
 li::marker{
     color: rgb(101, 255, 30);
     font-size: 1.0rem;
-}
+} */
 
 /* Responsive for Mobile */
 
@@ -1232,7 +1233,9 @@ tbody td{
     font-size: 1rem;
     font-weight: 400;
     margin-top: -20px;
-    line-height: 25px;
+    line-height: 20px;
+    text-align: left;
+    width: 400px;
 }
 .footer h2{
     color: rgb(255, 255, 255);
@@ -1307,6 +1310,7 @@ hr{
     font-size: 1.5rem;
     margin-bottom: -17px;
     margin-left: -93px;
+    margin-top: -10px;
 }
 .price_text p{
     color: red;
@@ -1325,13 +1329,13 @@ small{
     text-align: left;
     margin-left: 35px;
     font-size: 1rem;
-    line-height: 30px;
+    line-height: 40px;
 }
-ul>li{
+/* .price_list ul>li{
     list-style-type: circle;
 }
 li::marker{
     color: rgb(101, 255, 30);
     font-size: 1.0rem;
-}
+} */
 }
